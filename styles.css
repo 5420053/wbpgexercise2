@@ -1,0 +1,20 @@
+h1{
+    font-size: 300%;
+    margin: 30px;
+}
+
+.special {
+    font-size: 120%;
+    background-color: aqua;
+    border: solid;
+}
+
+.normal {
+    font-size: 110%;
+    color: red;
+    text-decoration: underline;
+}
+
+.mini{
+    font-size: 80%;
+}

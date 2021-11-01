@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>演習2</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>演習2</h1>
+    <ol>
+      <li class="special">&lt;div&gt;&lt;/div&gt;</li><br>
+      <ul>
+        <li class="normal">説明</li>
+        <p>&lt;div&gt;単体では意味を持たないタグですが、囲った部分をグループ化させることができます。
+          <br>そのグループをalign属性を用いて水平方向の位置を指定することができます。
+          <br>align属性は値をcenterで中央寄せ、leftで左寄せ、rightで右寄せにすることができます。
+        </p>
+        <li class="normal">マークアップ例1</li>
+        <p>&lt;div&nbsp;align=&quot;center&quot;&gt;中央寄せ&lt;/div&gt;</p>
+        <li class="normal">動作結果1</li>
+        <div align="center" style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+          中央寄せ
+        </div>
+        <li class="normal">マークアップ例2</li>
+        <p>&lt;div&nbsp;align=&quot;left&quot;&gt;左寄せ&lt;/div&gt;</p>
+        <li class="normal">動作結果2</li>
+        <div align="left" style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+          左寄せ
+        </div>
+        <li class="normal">マークアップ例3</li>
+        <p>&lt;div&nbsp;align=&quot;right&quot;&gt;右寄せ&lt;/div&gt;</p>
+        <li class="normal">動作結果3</li>
+        <div align="right" style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+          右寄せ
+        </div><br>
+      </ul>
+      <li class="special">&lt;pre&gt;&lt;/pre&gt;</li><br>
+      <ul>
+        <li class="normal">説明</li>
+        <p>&lt;pre&gt;で囲んだ整形済みテキストを表示することができるタグです。
+          <br>整形済みテキスト、つまり入力した空白や改行などをそのままで表示させることができます。
+          <br>空白が多くあるテキストを表示させるときなどに便利ですが、特殊文字は特殊文字として認識されてしまうため注意が必要です。
+        </p>
+        <li class="normal">マークアップ例1</li>
+        <p>&lt;pre&gt;整&nbsp;形&nbsp;済&nbsp;み&lt;/pre&gt;</p>
+        <li class="normal">動作結果1</li>
+        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+         <pre>整 形 済 み</pre>
+        </div>
+        <li class="normal">マークアップ例2</li>
+        <p>&lt;pre&gt;整<br>形<br>済<br>み&lt;/pre&gt;</p>
+        <li class="normal">動作結果2</li>
+        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+         <pre>整
+形
+済
+み</pre>
+        </div>
+        <li class="normal">マークアップ例3</li>
+        <p>&lt;pre&gt;整<br>&nbsp;形<br>&nbsp;&nbsp;済<br>&nbsp;&nbsp;&nbsp;み&lt;/pre&gt;</p>
+        <li class="normal">動作結果3</li>
+        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+         <pre>整
+ 形
+  済
+   み</pre>
+        </div>
+      </ul><br>
+      <li class="special">&lt;sup&gt;&lt;/sup&gt;と&lt;sub&gt;&lt;/sub&gt;</li><br>
+      <ul>
+        <li class="normal">説明</li>
+        <p>&lt;sup&gt;で囲んだテキストを上付き文字として表示することができます。
+          <br>一方、&lt;sub&gt;で囲んだテキストを下付き文字として表示することができます。
+          <br>数式などの表示に便利なタグです。
+        </p>
+        <li class="normal">マークアップ例1</li>
+        <p>&lt;p&gt;A&lt;sup&gt;2&lt;/sup&gt;+B&lt;sup&gt;2&lt;/sup&gt;=C&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;</p>
+        <li class="normal">動作結果1</li>
+        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+          <p>A<sup>2</sup>+B<sup>2</sup>=C<sup>2</sup></p>
+        </div>
+        <li class="normal">マークアップ例2</li>
+        <p>&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;p&gt;</p>
+        <li class="normal">動作結果2</li>
+        <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+          <p>H<sub>2</sub>O<p></p>
+        </div>
+      </ul><br>
+    </ol>
+    <div align="right">
+      <p class="mini">5420053&nbsp;加藤優貴</p>
+      <p class="mini">日本大学文理学部情報科学科Webプログラミングの演習課題</p>
+    </div>
+  </body>
+</html>
